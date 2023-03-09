@@ -14,4 +14,5 @@ public interface CustomerService {
 
     List<Customer> getAllCustomers();
 
+    Customer addNewCustomer(Customer newCustomer);
 }
